@@ -6,18 +6,18 @@ int is_strong(int);
 
 int main()
 {
-    int num;
+    int num;  // initializing user defined variable
     cout << "n: ";
-    cin >> num;
-
+    cin >> num; // taking input from user
+	 
     for (int i = 1; i <= num; i++)
     {
         if (is_strong(i))
-            cout << i << endl;
+            cout << i << endl; // print all the strong numbers
     }
 }
 
-int factorial(int n)
+int factorial(int n)  // take factorial of the digit of the number
 {
     int fact = 1;
     for (int i = 2; i <= n; i++)
@@ -27,7 +27,7 @@ int factorial(int n)
     return fact;
 }
 
-int is_strong(int m)
+int is_strong(int m)  // check if the number is strong
 {
     int sum = 0;
     for (int temp = m; temp > 0; temp /= 10)
