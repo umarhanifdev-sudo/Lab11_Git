@@ -15,7 +15,9 @@ int main()
         if (is_strong(i))
             cout << i << endl; // print all the strong numbers
     }
+	cout << "hello world! " << endl;
 }
+
 
 int factorial(int n)  // take factorial of the digit of the number
 {
