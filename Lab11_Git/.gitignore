@@ -1,0 +1,8 @@
+*.exe
+*.o
+*.out
+storage_estimator
+__pycache__/
+*.pyc
+.venv/
+venv/
